@@ -29,7 +29,7 @@
             text-align:center;
             padding: 25px 30px;
             font-size: 24px;
-            background-color: blue;
+            /* background-color: blue; */
         }
 
         .item1{
@@ -37,10 +37,10 @@
             /*  */
             grid-column-start: 1;
             grid-column-end: 2;
-            height: 12vh;
-            background-color: blue;
+            height: 16vh;
+            background-color:grey;
             display: grid;
-            grid-template-columns: auto auto auto auto;
+            grid-template-columns: auto auto auto auto auto ;
             grid-gap: 15px;
             background-color: rgb(10,34,53);
             color: white;
@@ -53,7 +53,7 @@
             grid-column-end: 2;
             height:80vh;
             display: grid;
-            grid-template-columns: auto auto auto auto;
+            grid-template-columns: auto auto auto;
             grid-gap: 10px;
         }
         
@@ -177,9 +177,11 @@
         }
         /*  */
 
-                    .topnav {
-            overflow: hidden;
-            background-color: #e9e9e9;
+            .topnav {
+                overflow: hidden;
+                background-color: #e9e9e9;
+                grid-column-start: 2;
+                grid-column-end: 4;
             }
 
             .topnav a {
@@ -245,6 +247,11 @@
             }
             }
 
+            h3 {
+                color: black;
+                font-family: 'Libre Baskerville', serif;
+            }
+
     
     </style>
 </head>
@@ -254,9 +261,6 @@
         <div class="grid-container">
             <div class="item1">
                 <div class="topnav">
-                    <a class="active" href="#home">Home</a>
-                    <a href="#about">About</a>
-                    <a href="#contact">Contact</a>
                     <div class="search-container">
                       <form action="/action_page.php">
                         <input type="text" placeholder="Search.." name="search">
@@ -270,10 +274,19 @@
                 <div class="h">Lorem ipsum dolor sit, amet consectetur adipisicing.</div>
             </div>
             <div class="item2">
-                <h1> Meet our Dev's for hire:</h1>
-                <div class="i"><img src="img/pexels-photo-164595.jpeg" alt="" srcset=""></div>
-                <div class="j"><img src="img/pexels-photo-258154.jpeg" alt="" srcset=""></div>
-                <div class="k"><img src="img/pexels-photo-271624.jpeg" alt="" srcset=""></div>
+                <h1> Have a look at February's best deals:</h1>
+                <div class="i">
+                    <img src="img/pexels-photo-164595.jpeg" alt="" srcset="">
+                    <h3>The Deluxe Suite at the Four Seasons Hotel</h3>
+                </div>
+                <div class="j">
+                    <img src="img/pexels-photo-258154.jpeg" alt="" srcset="">
+                    <h3>The Luxury Penthouse at the Royal Tulip Hotel</h3>
+                </div>
+                <div class="k">
+                    <img src="img/pexels-photo-271624.jpeg" alt="" srcset="">
+                    <h3>The Bachelor Suite at the Sun1 Hotel </h3>
+                </div>
             </div>
         </div>
 
