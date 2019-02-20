@@ -5,8 +5,14 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link href="https://fonts.googleapis.com/css?family=Bitter:700|Crimson+Text:600i|Libre+Baskerville:400i" rel="stylesheet"> 
     <title>Hyperion Shopping</title>
     <style>
+
+        h1 {
+            font-family: 'Crimson Text', serif;
+        }
+         
          .grid-container{
             display: grid;
             /*Creating columns*/
@@ -21,7 +27,7 @@
 
          .grid-container > div{
             text-align:center;
-            padding: 20px 0;
+            padding: 25px 30px;
             font-size: 24px;
             background-color: blue;
         }
@@ -33,7 +39,6 @@
             grid-column-end: 2;
             height: 12vh;
             background-color: blue;
-            grid-template-columns: auto auto auto;
             display: grid;
             grid-template-columns: auto auto auto auto;
             grid-gap: 15px;
@@ -47,6 +52,9 @@
             grid-column-start: 1;
             grid-column-end: 2;
             height:80vh;
+            display: grid;
+            grid-template-columns: auto auto auto auto;
+            grid-gap: 10px;
         }
         
         .grid-container2{
@@ -129,7 +137,6 @@
         .e {
             grid-column: 1 / 2;
             grid-row: 1;
-            background-color: red;
         }
 
         .f {
@@ -150,6 +157,24 @@
             background-color: orange;
         }
 
+        /*  */
+        .i {
+            grid-column: 1;
+            grid-row: 2;
+            background-color: white;
+        }
+
+        .j {
+            grid-column: 2;
+            grid-row: 2;
+            background-color: white;
+        }
+
+        .k {
+            grid-column: 3;
+            grid-row: 2;
+            background-color: white;
+        }
         /*  */
 
                     .topnav {
@@ -220,6 +245,7 @@
             }
             }
 
+    
     </style>
 </head>
 
@@ -238,13 +264,16 @@
                       </form>
                     </div>
                   </div>
-                <div class="e">e</div>
-                <div class="f">f</div>
-                <div class="g">g</div>
-                <div class="h">h</div>
+                <div class="e"><img src="img/codespace.png" alt="" srcset=""></div>
+                <div class="f">Lorem ipsum dolor sit amet consectetur.</div>
+                <div class="g">Lorem ipsum dolor sit.</div>
+                <div class="h">Lorem ipsum dolor sit, amet consectetur adipisicing.</div>
             </div>
             <div class="item2">
-                Hero
+                <h1> Meet our Dev's for hire:</h1>
+                <div class="i"><img src="img/pexels-photo-164595.jpeg" alt="" srcset=""></div>
+                <div class="j"><img src="img/pexels-photo-258154.jpeg" alt="" srcset=""></div>
+                <div class="k"><img src="img/pexels-photo-271624.jpeg" alt="" srcset=""></div>
             </div>
         </div>
 
