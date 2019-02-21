@@ -55,7 +55,7 @@
   }
   
   .education-wrapper{
-    width: 90%;
+    width: 80%;
     margin: 0 auto;
     max-width: 120rem;
   }
@@ -72,7 +72,7 @@
   }
   
   .col{
-    width: calc(75% - 3rem);
+    width: calc(70% - 3rem);
     margin: 1rem;
     cursor: pointer;
   }
