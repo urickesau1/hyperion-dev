@@ -93,7 +93,7 @@
          .grid-container3{
             display: grid;
             /*Creating columns*/
-            grid-template-columns:auto auto;
+            grid-template-columns:auto;
             /* Create spaces between items or blocks */
             grid-gap: 15px;
             background-color: rgb(10,34,53);
@@ -110,11 +110,8 @@
         }
 
          .item5{
-            height:40vh;
-        }
-
-        .item6{
-            height:40vh;
+            height:50vh;
+            grid-template-columns: auto auto;
         }
 
         .grid-container4{
@@ -179,11 +176,15 @@
             grid-row: 2;
         }
 
-        h3 {
+        .item5 h3 {
                 color: black;
                 font-family: 'Libre Baskerville', serif;
                 font-weight: bold;
-                font-size: 30px;
+                font-size: 30;
+                text-decoration: underline;
+                padding-top: 30px;
+                grid-column-start: 1;
+                grid-column-end: 2;
             }
         /*  */
 
@@ -561,7 +562,8 @@ li:hover ~ li {
                                       
                                   </div>
                               <div style="background:#85b;">
-                                      <h2>PRODUCT 1</h2>
+                                      <h3>Athlone 4 Bed Family Home</h3><img src="img/pexels-photo-280222.jpeg" alt="" srcset="">
+                                      <p>R2.2million</p>
                                   </div>
                               <div style="background:#e95;">
                                       <h2>PRODUCT 2</h2>
@@ -586,9 +588,6 @@ li:hover ~ li {
                             </div>
                           
                           </div>
-            </div>
-            <div class="item6">
-                Float right
             </div>
         </div>
         <div class="grid-container4">
