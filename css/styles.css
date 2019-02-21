@@ -156,6 +156,17 @@ http://stackoverflow.com/a/34696029/383904
   font-family: 'Crimson Text', serif;
 }
 
+#prodDesc {
+  grid-column-start: 1;
+  color: black;
+  font-weight: bold;
+  font-size: 18px;
+
+}
+
+#prod1 {
+  grid-template-columns: auto auto;
+}
 
 
 
