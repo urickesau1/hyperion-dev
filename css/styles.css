@@ -37,8 +37,7 @@
 *{
     margin: 0;
     padding: 0;
-    -webkit-box-sizing: border-box;
-    box-sizing: border-box;
+   
   }
 
   ul li ul li {
@@ -97,7 +96,7 @@
       -webkit-backface-visibility: hidden;
         backface-visibility: hidden;
       text-align: center;
-      min-height: 280px;
+      min-height: 380px;
       height: auto;
       border-radius: 10px;
       color: #fff;
