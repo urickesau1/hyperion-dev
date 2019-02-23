@@ -160,10 +160,14 @@ http://stackoverflow.com/a/34696029/383904
   grid-column-start: 2;
 }
 
+#prodTitle:hover {
+  color: gold;
+}
+
 #prodDesc {
   color: black;
   font-weight: bold;
-  font-size: 18px;
+  font-size: 22px;
   grid-column-start: 2;
 
 }
