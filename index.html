@@ -11,8 +11,13 @@
     <link rel="manifest" href="/manifest.json">
     <meta name="theme-color" content="#ffffff">
     <link rel="stylesheet" href="css/styles.css">
-    <title>Hyperion Shopping</title>
+    <title>CodeSpace Properties</title>
     <style>
+
+        #ref {
+            text-decoration: underline;
+            color: black;
+        }
 
         .item6 img:hover{
         -webkit-border-radius: 10px;
@@ -369,6 +374,7 @@
             <div class="item1">
                 <div class="topnav">
                     <div class="search-container">
+                        <h2 id="compName">{} CodeSpace Properties</h2>  
                       <form action="/action_page.php">
                         Searching for a specific property?
                         <input type="text" placeholder="Search.." name="search">
@@ -517,7 +523,7 @@
                             </div>
                             <img src="img/bid1.jpeg" alt="" srcset="" width="50%" height="50%">
                             <p>Stylish country-side fully furnished house with lakeside view</p>
-                            <p>Ref:M1357S</p>
+                            <p id="ref">Ref:M1357S</p>
                          </div>
                     </div>
 
@@ -529,7 +535,7 @@
                         </div>
                         <img src="img/bid2.jpeg" alt="" srcset="" width="50%" height="50%">
                         <p>Warm eco-friendly 4 bedroom house with fully solar powered energy system</p>
-                        <p>Ref:M3691</p>
+                        <p id="ref">Ref:M3691</p>
                     </div>
                     </div>
                     <div class="col3">
@@ -539,7 +545,7 @@
                         </div>
                         <img src="img/bid3.jpeg" alt="" srcset="" width="50%" height="50%">
                         <p>Modern exterior design with enhanced feng-shui decoration</p>
-                        <p>Ref:M2468</p>
+                        <p id="ref">Ref:M2468</p>
                     </div>
                     </div>
                 </div>
