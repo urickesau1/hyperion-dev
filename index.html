@@ -14,8 +14,19 @@
     <title>Hyperion Shopping</title>
     <style>
 
+        .CSSgal {
+            grid-template-columns: auto auto auto;
+            grid-template-rows: auto auto auto;
+        }
+
+        .info {
+            grid-column-start: 2;
+            grid-row-start: 2;
+        }
+
         h1 {
             font-family: 'Crimson Text', serif;
+            text-decoration: underline;
         }
          
          .grid-container{
@@ -42,7 +53,7 @@
             /*  */
             grid-column-start: 1;
             grid-column-end: 2;
-            height: 16vh;
+            height: 18vh;
             background-color:grey;
             display: grid;
             grid-template-columns: auto auto auto auto auto ;
@@ -81,8 +92,8 @@
         }
 
          .grid-container2 > div{
-            background-color: rgb(228, 147, 42)
-            text-align:center;
+            background-color: rgb(228, 147, 42);
+            text-align: center;
             padding: 20px 0;
         }
 
@@ -97,7 +108,7 @@
          .grid-container3{
             display: grid;
             /*Creating columns*/
-            grid-template-columns:auto;
+            grid-template-columns:auto ;
             /* Create spaces between items or blocks */
             grid-gap: 15px;
             background-color: rgb(10,34,53);
@@ -116,7 +127,8 @@
          .item5{
             display: grid;
             height:60vh;
-            grid-template-columns: auto ;
+            grid-template-columns: auto auto ;
+            grid-template-rows: auto auto;
         }
 
         .item6{
@@ -142,7 +154,7 @@
         }
 
          .grid-container4 > div{
-            background-color: rgb(228, 147, 42)
+            background-color: rgb(228, 147, 42);
             text-align:center;
             padding: 20px 0;
             font-size: 24px;
@@ -178,6 +190,7 @@
             grid-column: 3;
             grid-row: 2;
             background-color: rgb(10,34,53);
+            font-family: 'Crimson Text', serif;
         }
 
         /*  */
@@ -334,8 +347,8 @@
                   </div>
                 <div class="e"><img src="img/codespace.png" alt="" srcset=""></div>
                 <div class="f">Let's find home together...</div>
-                <div class="g"><a href="#">Sign Up</a> <a href="#">Login</a> </div>
-                <div class="h">Lorem ipsum dolor sit, amet consectetur adipisicing.</div>
+                <div class="g"><a href="#">Sign Up</a> | <a href="#">Login</a> </div>
+                <div class="h">""Buy a home at the click of a button""</div>
             </div>
             <div class="item2">
                 <h1> Have a look at February's best discounts:</h1>
@@ -425,12 +438,15 @@
                             <div class="slider">
                               <div style="background:#5b8;">
                                       <h3>VIEW OUR VIP PROPERTIES</h3>
-                                      <img src="img/pexels-photo-164516.jpeg" alt="" srcset="">
+                                      <div class="corner-ribbon top-right sticky blue">SALE!!!</div>
+                                      <img src="img/pexels-photo-164516.jpeg" class="vip">
                                       
                                   </div>
-                              <div style="background: url('img/pexels-photo-280222.jpeg'); background-repeat: no-repeat; background-size: cover;" >
-                                      <h3 id="prodTitle">Constantia 8 Bed Family Home</h3><br>
-                                      <p id="prodDesc">R2.5mil</p>
+                              <div style="background: url('img/pexels-photo-280222.jpeg'); background-repeat: no-repeat; background-size: cover;">
+                                    <div class="info">
+                                    <h3 id="prodTitle">Constantia 8 Bed Family Home</h3><br>
+                                    <p id="prodDesc">R2.5mil</p>
+                                    </div> 
                                       <img src="img/pexels-photo-280222(6).jpeg" alt="" srcset="">
                                       
                                   </div>
@@ -465,16 +481,44 @@
             <div class="item6">
                     item1
                     <div class="col1">
-                        
+                        <div class="bid1">
+                            <div class="ribbon-wrapper-green">
+                                <div class="ribbon-green">NEW</div>
+                            </div>
+                            <img src="img/bid1.jpeg" alt="" srcset="" width="50%" height="50%">
+                         </div>
                     </div>
+
+
                     <div class="col2">
-                        
+                        <div class="bid2">
+                            <div class="ribbon-wrapper-green">
+                            <div class="ribbon-green">NEW</div>
+                        </div>
+                        <img src="img/bid1.jpeg" alt="" srcset="" width="50%" height="50%">
+                    </div>
                     </div>
                     <div class="col3">
-                    
+                        <div class="bid33">
+                            <div class="ribbon-wrapper-green">
+                            <div class="ribbon-green">NEW</div>
+                        </div>
+                        <img src="img/bid1.jpeg" alt="" srcset="" width="50%" height="50%">
+                    </div>
                     </div>
                 </div>
         </div>
+
+       
+            
+           
+            
+
+
+
+
+
+
         <div class="grid-container4">
             <div class="item7"> 
                     <div class="footercol">

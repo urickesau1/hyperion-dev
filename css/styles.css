@@ -19,7 +19,7 @@ http://stackoverflow.com/a/34696029/383904
 	height: 100%;
 	white-space: nowrap;
 	font-size: 0;
-	transition: 0.8s;
+	transition: 2s;
 }
 
 /* SLIDES */
@@ -135,14 +135,17 @@ http://stackoverflow.com/a/34696029/383904
 
 .CSSgal{
 	color: #fff;	
-	text-align: center;
+  text-align: center;
+  grid-template-columns: auto auto;
+  grid-template-rows: auto auto;
 }
 .CSSgal .slider h2 {
 	margin-top: 40vh;
 	font-weight: 200;
 	letter-spacing: -0.06em;
 	word-spacing: 0.2em;
-	font-size: 3em;
+  font-size: 3em;
+  grid-column-start: 2;
 }
 .CSSgal a {
 	border-radius: 50%;
@@ -154,13 +157,14 @@ http://stackoverflow.com/a/34696029/383904
 #prodTitle {
   font-size: 45px;
   font-family: 'Crimson Text', serif;
+  grid-column-start: 2;
 }
 
 #prodDesc {
-  grid-column-start: 1;
   color: black;
   font-weight: bold;
   font-size: 18px;
+  grid-column-start: 2;
 
 }
 
@@ -184,6 +188,42 @@ a:hover {
   color: #444;
   font-family: 'Crimson Text', serif;
 }
+
+
+ .corner-ribbon{
+  width: 200px;
+  background: #e43;
+  position: absolute;
+  top: 25px;
+  left: -50px;
+  text-align: center;
+  line-height: 50px;
+  letter-spacing: 1px;
+  color: #f0f0f0;
+  transform: rotate(-45deg);
+  -webkit-transform: rotate(-45deg);
+}
+
+.corner-ribbon.sticky{
+  position: fixed;
+}
+
+.corner-ribbon.top-left{
+  top: 25px;
+  left: -50px;
+  transform: rotate(-45deg);
+  -webkit-transform: rotate(-45deg);
+}
+
+.vip img {
+  border-radius: 4px;
+}
+
+.slider {
+  grid-template-columns: auto auto;
+}
+
+
 
 
 
