@@ -168,6 +168,18 @@ http://stackoverflow.com/a/34696029/383904
   grid-template-columns: auto auto;
 }
 
+a {
+  color: green;
+}
+
+a:visited {
+  color: blue;
+}
+
+a:hover {
+  color: white;
+}
+
 
 
 
